@@ -14,3 +14,6 @@ public class Subtraction {
         double a = sc.nextDouble(); 
         System.out.print("Enter second number: ");
         double b = sc.nextDouble(); 
+
+        // Performing subtraction
+        double result = a - b;
