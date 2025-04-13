@@ -14,3 +14,6 @@ public class Addition {
         double a = sc.nextDouble(); 
         System.out.print("Enter second number: ");
         double b = sc.nextDouble(); 
+
+        // Performing the addition operation
+        double result = a + b;
