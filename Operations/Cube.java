@@ -15,3 +15,8 @@ public class Cube {
 
         // Cubing the number
         double result = a * a * a;
+
+        // Displaying the final result
+        System.out.println("Cube = " + result);
+    }
+}
