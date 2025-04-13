@@ -17,3 +17,8 @@ public class Multiplication {
 
         // Performing multiplication
         double result = a * b;
+        
+        // Displaying the final result
+        System.out.println("Result = " + result);
+    }
+}
