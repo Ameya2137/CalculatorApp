@@ -19,5 +19,15 @@ A modular Java Calculator app with operations like addition, subtraction, multip
 
 ![image](https://github.com/user-attachments/assets/db483c97-b977-41bc-be30-dcf6c92926e2)
 
+## How To Run:
+
+- Clone the repository: https://github.com/Ameya2137/CalculatorApp.git
+
+- Navigate to the project directory: cd CalculatorApp
+
+- Compile the Java files: javac Calculator.java Operations/*.java
+
+- Run the program: java Calculator
+
 
 
