@@ -12,3 +12,6 @@ public class Cube {
         // Asking the user to enter the number
         System.out.print("Enter number: ");
         double a = sc.nextDouble();
+
+        // Cubing the number
+        double result = a * a * a;
