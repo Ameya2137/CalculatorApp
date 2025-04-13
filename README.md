@@ -15,4 +15,9 @@ A modular Java Calculator app with operations like addition, subtraction, multip
 - Clean, modular structure with OOP design  
 - Fully commented and easy to understand  
 
+## Project Structure
+
+![image](https://github.com/user-attachments/assets/db483c97-b977-41bc-be30-dcf6c92926e2)
+
+
 
