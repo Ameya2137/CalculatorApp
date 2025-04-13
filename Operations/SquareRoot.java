@@ -20,3 +20,8 @@ public class SquareRoot {
 
         // Performing square root
         double result = Math.sqrt(a);
+
+        // Displaying the final result
+        System.out.println("Square Root = " + result);
+    }
+}
