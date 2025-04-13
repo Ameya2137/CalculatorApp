@@ -14,3 +14,8 @@ public class Division {
         double a = sc.nextDouble();
         System.out.print("Enter denominator: ");
         double b = sc.nextDouble();
+
+        // Throwing ArithmeticException
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero!");
+        }
