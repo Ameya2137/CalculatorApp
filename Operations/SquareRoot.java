@@ -9,3 +9,6 @@ import java.util.Scanner;
 // Creating a public class named SquareRoot
 public class SquareRoot {
     public static void perform(Scanner sc) {
+        // Asking the user to enter the number
+        System.out.print("Enter number: ");
+        double a = sc.nextDouble();
