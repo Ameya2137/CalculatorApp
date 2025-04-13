@@ -17,3 +17,8 @@ public class Addition {
 
         // Performing the addition operation
         double result = a + b;
+
+        // Displaying the result to the user
+        System.out.println("Result = " + result);
+    }
+}
