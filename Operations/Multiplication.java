@@ -14,3 +14,6 @@ public class Multiplication {
         double a = sc.nextDouble();
         System.out.print("Enter second number: ");
         double b = sc.nextDouble();
+
+        // Performing multiplication
+        double result = a * b;
