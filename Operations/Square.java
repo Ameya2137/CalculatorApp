@@ -12,3 +12,6 @@ public class Square {
         // Asking the user to enter the number
         System.out.print("Enter number: ");
         double a = sc.nextDouble();
+        
+        // Squaring the number
+        double result = a * a;
