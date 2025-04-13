@@ -72,3 +72,12 @@ public class Calculator {
                         // Call perform() method of SquareRoot class
                         SquareRoot.perform(sc);
                         break;
+                    case 8:
+                        // Exit option: update the loop flag
+                        keepRunning = false;
+                        System.out.println("Exiting...");
+                        break;
+                    default:
+                        // If user enters a number not between 1-8
+                        System.out.println("Invalid choice. Please select between 1 and 8.");
+                }
