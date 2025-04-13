@@ -12,3 +12,8 @@ public class SquareRoot {
         // Asking the user to enter the number
         System.out.print("Enter number: ");
         double a = sc.nextDouble();
+
+        // Throwing ArithmeticException
+        if (a < 0) {
+            throw new ArithmeticException("Cannot compute square root of negative number!");
+        }
