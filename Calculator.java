@@ -40,3 +40,11 @@ public class Calculator {
                 sc.next(); // Clearing the invalid input from the buffer
                 continue;  // Skip this loop iteration and show the menu again
             }
+
+            try {
+                // Performing operation based on user's choice
+                switch (choice) {
+                    case 1:
+                        // Call perform() method of Addition class
+                        Addition.perform(sc);
+                        break;
