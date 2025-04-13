@@ -9,3 +9,8 @@ import java.util.Scanner;
 // Creating a public class named Division
 public class Division {
     public static void perform(Scanner sc) {
+        // Asking the user to enter the numbers
+        System.out.print("Enter numerator: ");
+        double a = sc.nextDouble();
+        System.out.print("Enter denominator: ");
+        double b = sc.nextDouble();
