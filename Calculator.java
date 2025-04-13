@@ -29,3 +29,14 @@ public class Calculator {
             System.out.println("7. Square Root");
             System.out.println("8. Exit");
             System.out.print("Enter your choice: ");
+
+            int choice;
+            try {
+                // Reading user input for menu choice
+                choice = sc.nextInt();
+            } catch (Exception e) {
+                // Handling non-integer inputs
+                System.out.println("Invalid input! Please enter a number between 1 and 8.");
+                sc.next(); // Clearing the invalid input from the buffer
+                continue;  // Skip this loop iteration and show the menu again
+            }
