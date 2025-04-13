@@ -17,3 +17,6 @@ public class SquareRoot {
         if (a < 0) {
             throw new ArithmeticException("Cannot compute square root of negative number!");
         }
+
+        // Performing square root
+        double result = Math.sqrt(a);
