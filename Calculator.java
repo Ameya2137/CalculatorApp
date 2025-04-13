@@ -60,3 +60,7 @@ public class Calculator {
                         // Call perform() method of Division class
                         Division.perform(sc);
                         break;
+                    case 5:
+                        // Call perform() method of Square class
+                        Square.perform(sc);
+                        break;
