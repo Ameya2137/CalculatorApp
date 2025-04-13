@@ -52,3 +52,7 @@ public class Calculator {
                         // Call perform() method of Subtraction class
                         Subtraction.perform(sc);
                         break;
+                    case 3:
+                        // Call perform() method of Multiplication class
+                        Multiplication.perform(sc);
+                        break;
