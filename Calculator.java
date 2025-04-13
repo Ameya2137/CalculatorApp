@@ -89,3 +89,8 @@ public class Calculator {
                 System.out.println("Unexpected Error: " + e.getMessage());
             }
         }
+
+        // Closing the scanner to release resources
+        sc.close();
+    }
+}
