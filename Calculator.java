@@ -81,3 +81,11 @@ public class Calculator {
                         // If user enters a number not between 1-8
                         System.out.println("Invalid choice. Please select between 1 and 8.");
                 }
+            } catch (ArithmeticException ae) {
+                // Catch and display specific arithmetic errors like division by zero
+                System.out.println("Arithmetic Error: " + ae.getMessage());
+            } catch (Exception e) {
+                // Catch any other unexpected exceptions
+                System.out.println("Unexpected Error: " + e.getMessage());
+            }
+        }
