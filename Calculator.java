@@ -56,3 +56,7 @@ public class Calculator {
                         // Call perform() method of Multiplication class
                         Multiplication.perform(sc);
                         break;
+                    case 4:
+                        // Call perform() method of Division class
+                        Division.perform(sc);
+                        break;
