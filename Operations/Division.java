@@ -22,3 +22,8 @@ public class Division {
 
         // Performing division
         double result = a / b;
+
+        // Displaying the final result
+        System.out.println("Result = " + result);
+    }
+}
