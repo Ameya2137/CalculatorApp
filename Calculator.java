@@ -64,3 +64,7 @@ public class Calculator {
                         // Call perform() method of Square class
                         Square.perform(sc);
                         break;
+                    case 6:
+                        // Call perform() method of Cube class
+                        Cube.perform(sc);
+                        break;
