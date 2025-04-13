@@ -15,3 +15,8 @@ public class Square {
         
         // Squaring the number
         double result = a * a;
+
+        // Displaying the final result
+        System.out.println("Square = " + result);
+    }
+}
