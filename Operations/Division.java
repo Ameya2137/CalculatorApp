@@ -19,3 +19,6 @@ public class Division {
         if (b == 0) {
             throw new ArithmeticException("Cannot divide by zero!");
         }
+
+        // Performing division
+        double result = a / b;
